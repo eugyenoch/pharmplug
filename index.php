@@ -2,7 +2,7 @@
 //Search form and button
 if(isset($_GET['searchBtn'])){
     $search_term = $_GET['search'];
-    header("Location: https://pharmplug.com/rx/?s=$search_term");
+    header("Location: https://pharmplug.com/?s=$search_term");
 }
 ?>
 <!DOCTYPE html>
@@ -111,7 +111,7 @@ if(isset($_GET['searchBtn'])){
 
                     </div>
                     <div class="col-md-2 border-start border-primary">
-                      <a class="lightBlueText" href="https://pharmplug.com/rx/cart/"><span class="ps-2"><i class="ti-shopping-cart align-middle" style="font-size:30px;"></i>&nbsp;Cart&nbsp;<br></span> </a>                   
+                      <a class="lightBlueText" href="https://pharmplug.com/cart/"><span class="ps-2"><i class="ti-shopping-cart align-middle" style="font-size:30px;"></i>&nbsp;Cart&nbsp;<br></span> </a>                   
                     </div>
                 </div>
             </div>
@@ -121,10 +121,10 @@ if(isset($_GET['searchBtn'])){
                       <div class="collapse navbar-collapse float-end" id="navbarTogglerDemo01">
                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                             <a class="lightBlueText nav-link" href="https://pharmplug.com/rx/contact/">Online Doctor</a>
+                             <a class="lightBlueText nav-link" href="https://pharmplug.com/contact/">Online Doctor</a>
                               <li>
                                 <li class="nav-item">
-                              <a class="lightBlueText nav-link" aria-current="page" href="https://pharmplug.com/rx/contact/">Lab Tests</a>
+                              <a class="lightBlueText nav-link" aria-current="page" href="https://pharmplug.com/contact/">Lab Tests</a>
                               <li>
                             <li class="nav-item dropdown">
                               <a class="lightBlueText nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false"><strong>Ask Pharm. Josy</strong></a>
@@ -163,21 +163,21 @@ if(isset($_GET['searchBtn'])){
       <img src="assets/img/pharm plug_1.jpg" class="d-block w-100" alt="PharmPlug carousel">
       <div class="carousel-caption d-none d-md-block">
         <!-- <h5>About Us</h5> -->
-        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/rx/"><span class="text-white">Buy Now</span></a></p>
+        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/"><span class="text-white">Buy Now</span></a></p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="3000">
       <img src="assets/img/pharm plug_2.jpg" class="d-block w-100" alt="PharmPlug carousel">
       <div class="carousel-caption d-none d-md-block">
        <!--  <h5>About Us</h5> -->
-        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/rx/"><span class="text-white">Buy Now</span></a></p>
+        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/"><span class="text-white">Buy Now</span></a></p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="3000">
       <img src="assets/img/pharm plug_3.jpg" class="d-block w-100" alt="PharmPlug carousel">
       <div class="carousel-caption d-none d-md-block">
         <h5></h5>
-        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/rx/"><span class="text-white">Buy Now</span></a></p>
+        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/"><span class="text-white">Buy Now</span></a></p>
       </div>
     </div>
   </div>
@@ -250,7 +250,7 @@ if(isset($_GET['searchBtn'])){
         <center><img src="assets/img/pharmplug_product.png" class="d-block" alt="PharmPlug carousel"></center>
     </div>
     <div>
-        <center><a href="https://pharmplug.com/rx/"><button class="btn btn-lg text-white lemonBg lightBlueBgHover"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</button></a></center>
+        <center><a href="https://pharmplug.com/"><button class="btn btn-lg text-white lemonBg lightBlueBgHover"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</button></a></center>
     </div>
     </div>
         <!-- 3-COL PRODUCT LIST SECTION ENDS -->
@@ -272,16 +272,16 @@ if(isset($_GET['searchBtn'])){
 
       <h4 class="lightBlueText pt-5">Buy Medicines</h4>
       <p>Get NAFDAC-approved medications delivered to you no matter your current location.</p>
-      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/rx/"><i class="ti-pulse"></i>&nbsp;<small>Enter Pharmacy</small></a>
+      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/"><i class="ti-pulse"></i>&nbsp;<small>Enter Pharmacy</small></a>
     </div>
     <div class="col-sm-3 py-5">
       <h4 class="lightBlueText">Consult an Expert</h4>
       <p>Book the appointment of a doctor or pharmacist without stress from your current location</p>
-      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/rx/ask/"><i class="ti-pulse"></i>&nbsp;<small>Consult Expert</small></a>
+      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/ask/"><i class="ti-pulse"></i>&nbsp;<small>Consult Expert</small></a>
 
       <h4 class="lightBlueText pt-5">Product Consultation</h4>
       <p>We will guide you into getting the right prescriptions and medications for your conditions.</p>
-      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/rx/ask/"><i class="ti-pulse"></i>&nbsp;<small>Ask an Expert</small></a>
+      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/ask/"><i class="ti-pulse"></i>&nbsp;<small>Ask an Expert</small></a>
     </div>
 </div>
 
@@ -300,7 +300,7 @@ if(isset($_GET['searchBtn'])){
   <div class="card-body">
     <h5 class="card-title darkBlueTextHover">Catether</h5>
     <p class="card-text">Medical consumables <br><span class="lemonText"><strong>Starting from ₦600.00</strong></span></p>
-    <a title="Buy Catether and similar products" href="https://pharmplug.com/rx/product-category/medical-consumables/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
+    <a title="Buy Catether and similar products" href="https://pharmplug.com/product-category/medical-consumables/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
   </div>
 </div>
     </div>
@@ -310,7 +310,7 @@ if(isset($_GET['searchBtn'])){
   <div class="card-body">
     <h5 class="card-title darkBlueTextHover">Medical Uniforms</h5>
     <p class="card-text">Surgical Clothing<br><span class="lemonText"><strong>Starting from ₦600.00</strong></span></p>
-    <a title="Buy Easy-Care Medical Uniforms and similar products" href="https://pharmplug.com/rx/product-category/surgical-clothing/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
+    <a title="Buy Easy-Care Medical Uniforms and similar products" href="https://pharmplug.com/product-category/surgical-clothing/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
   </div>
 </div>
     </div>
@@ -320,7 +320,7 @@ if(isset($_GET['searchBtn'])){
   <div class="card-body">
     <h5 class="card-title">Surgical Masks</h5>
     <p class="card-text">Surgical Clothing<br><span class="lemonText"><strong>Starting from ₦500.00</strong></span></p>
-    <a title="Buy Surgical Masks and related products" href="https://pharmplug.com/rx/product-category/surgical-clothing/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
+    <a title="Buy Surgical Masks and related products" href="https://pharmplug.com/product-category/surgical-clothing/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
   </div>
 </div>
     </div>
@@ -330,7 +330,7 @@ if(isset($_GET['searchBtn'])){
   <div class="card-body">
     <h5 class="card-title">Supplements</h5>
     <p class="card-text">Food Supplements<br><span class="lemonText"><strong>Starting from ₦800.00</strong></span></p>
-    <a title="Buy Supplements and related products" href="https://pharmplug.com/rx/product-category/food-supplements/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
+    <a title="Buy Supplements and related products" href="https://pharmplug.com/product-category/food-supplements/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
   </div>
 </div>
     </div>
@@ -340,7 +340,7 @@ if(isset($_GET['searchBtn'])){
   <div class="card-body">
     <h5 class="card-title">Vitamins</h5>
     <p class="card-text">Vitamins/Minerals/Multivitamins<br><span class="lemonText"><strong>Starting from ₦700.00</strong></span></p>
-    <a title="Buy multivitamins and related products" href="https://pharmplug.com/rx/product-category/vitamins-minerals-multivitamins/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
+    <a title="Buy multivitamins and related products" href="https://pharmplug.com/product-category/vitamins-minerals-multivitamins/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
   </div>
 </div>
     </div>
@@ -350,7 +350,7 @@ if(isset($_GET['searchBtn'])){
   <div class="card-body">
     <h5 class="card-title">Equipment</h5>
     <p class="card-text">Medical Equipment<br><span class="lemonText"><strong>Starting from ₦3,000.00</strong></span></p>
-    <a title="Buy Medical Equipment and related supplies" href="https://pharmplug.com/rx/product-category/medical-equipment/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
+    <a title="Buy Medical Equipment and related supplies" href="https://pharmplug.com/product-category/medical-equipment/" class="btn lemonBg lightBlueBgHover text-white stretched-link"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</a>
   </div>
 </div>
     </div>
@@ -454,28 +454,28 @@ Seat back and relax while we remember your refill dates...Please use the auto re
                <!--  <div class="d-none d-md-block"> <a class="navbar-brand" href="#"><img src="assets/img/pharmplug_logo.jpeg" alt="PharmPlug" title="PharmPlug" width="150px" height="60px" class="d-inline-block align-text-bottom"></a></div> --><div> <p class=""><big><strong>| Who We Are</strong></big></p></div>
                 <p class="text-muted">PharmPlug is a subsidiary of Inland Medical Company Ltd.
 We are amongst one of Nigeria’s top online pharmacy and medical care platforms that enables you to order pharmaceutical and healthcare products online by connecting you to registered retail pharmacies and get them delivered to your home. We are an online pharmacy store, making your purchase easy, simple, and affordable!<br>
-<a class="btn btn-outline-primary" href="https://pharmplug.com/rx/about/">Read More...</a></p>
+<a class="btn btn-outline-primary" href="https://pharmplug.com/about/">Read More...</a></p>
             </div>     
              <div class="col-sm-3">
                 <div> <p class="ps-5"><big><strong>| Programs</strong></big></p></div>
                 <ul class="list-group-flush">
-                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/contact/" target="_blank" rel="noopener">Pharmplug Special</a></li>
-                     <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/" target="_blank" rel="noopener">Free Deliveries</a></li>
-                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/contact/" target="_blank" rel="noopener">Free Lab Tests</a></li>
-                   <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/" target="_blank" rel="noopener">Instant Discounts</a></li>
-                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/order-tracking/" target="_blank" rel="noopener">Delivery Tracking</a></li>
+                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/contact/" target="_blank" rel="noopener">Pharmplug Special</a></li>
+                     <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/" target="_blank" rel="noopener">Free Deliveries</a></li>
+                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/contact/" target="_blank" rel="noopener">Free Lab Tests</a></li>
+                   <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/" target="_blank" rel="noopener">Instant Discounts</a></li>
+                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/order-tracking/" target="_blank" rel="noopener">Delivery Tracking</a></li>
                 </ul>
             </div> 
 
              <div class="col-sm-3">
                 <div> <p class="ps-5"><big><strong>| Product Links</strong></big></p></div>
                 <ul class="list-group-flush">
-                <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/my-account/orders/" target="_blank" rel="noopener">Orders</a></li>
-                 <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/my-account/wallet/" target="_blank" rel="noopener">Wallet</a></li>
-                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/wishlist/" target="_blank" rel="noopener">wishlist</a></li>
-                   <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/checkout/" target="_blank" rel="noopener">Checkout</a></li>
-                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/cart/" target="_blank" rel="noopener">Cart</a></li>
-                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/order-tracking/" target="_blank" rel="noopener">Order Tracking</a></li>
+                <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/my-account/orders/" target="_blank" rel="noopener">Orders</a></li>
+                 <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/my-account/wallet/" target="_blank" rel="noopener">Wallet</a></li>
+                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/wishlist/" target="_blank" rel="noopener">wishlist</a></li>
+                   <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/checkout/" target="_blank" rel="noopener">Checkout</a></li>
+                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/cart/" target="_blank" rel="noopener">Cart</a></li>
+                    <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/order-tracking/" target="_blank" rel="noopener">Order Tracking</a></li>
                 </ul>
             </div> 
 
@@ -483,9 +483,9 @@ We are amongst one of Nigeria’s top online pharmacy and medical care platforms
                 <div> <p class="ps-5"><big><strong>| Resources</strong></big></p></div>
                 <ul class="list-group-flush">
                <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/blog/" target="_blank" rel="noopener">Blog</a></li>
-                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/contact/" target="_blank" rel="noopener">Contact</a></li>
-                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/faq/" target="_blank" rel="noopener">FAQs</a></li>
-                   <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/rx/contact/" target="_blank" rel="noopener">Lab Tests</a></li>
+                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/contact/" target="_blank" rel="noopener">Contact</a></li>
+                  <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/faq/" target="_blank" rel="noopener">FAQs</a></li>
+                   <li class="list-group-item text-muted" style="background:transparent;"><a class="text-muted" href="https://pharmplug.com/contact/" target="_blank" rel="noopener">Lab Tests</a></li>
                    
                 </ul>
             </div> 
@@ -504,14 +504,14 @@ We are amongst one of Nigeria’s top online pharmacy and medical care platforms
             </div>
             <div class="col-sm-6 pt-4">
                 <center>
-                 <a class="text-white" href="https://pharmplug.com/rx/ask/" target="_blank" rel="noopener">Ask&nbsp;|</a>
-                <a class="text-white" href="https://pharmplug.com/rx/about/" target="_blank" rel="noopener">About&nbsp;|</a>&nbsp;
-                <a class="text-white" href="https://pharmplug.com/rx/blog/" target="_blank" rel="noopener">Blog&nbsp;|</a>&nbsp;
-                 <a class="text-white" href="https://pharmplug.com/rx/faq/" target="_blank" rel="noopener">FAQ&nbsp;|</a>&nbsp;
-                 <a class="text-white" href="https://pharmplug.com/rx/privacy/" target="_blank" rel="noopener">Privacy&nbsp;|</a>&nbsp;
-                <a class="text-white" href="https://pharmplug.com/rx/refund/" target="_blank" rel="noopener">Refunds&nbsp;|</a>&nbsp;
-                <a class="text-white" href="https://pharmplug.com/rx/terms/" target="_blank" rel="noopener">Terms&nbsp;|</a>&nbsp;
-                 <a class="text-white" href="https://pharmplug.com/rx/contact/" target="_blank" rel="noopener">Contact</a>&nbsp;
+                 <a class="text-white" href="https://pharmplug.com/ask/" target="_blank" rel="noopener">Ask&nbsp;|</a>
+                <a class="text-white" href="https://pharmplug.com/about/" target="_blank" rel="noopener">About&nbsp;|</a>&nbsp;
+                <a class="text-white" href="https://pharmplug.com/blog/" target="_blank" rel="noopener">Blog&nbsp;|</a>&nbsp;
+                 <a class="text-white" href="https://pharmplug.com/faq/" target="_blank" rel="noopener">FAQ&nbsp;|</a>&nbsp;
+                 <a class="text-white" href="https://pharmplug.com/privacy/" target="_blank" rel="noopener">Privacy&nbsp;|</a>&nbsp;
+                <a class="text-white" href="https://pharmplug.com/refund/" target="_blank" rel="noopener">Refunds&nbsp;|</a>&nbsp;
+                <a class="text-white" href="https://pharmplug.com/terms/" target="_blank" rel="noopener">Terms&nbsp;|</a>&nbsp;
+                 <a class="text-white" href="https://pharmplug.com/contact/" target="_blank" rel="noopener">Contact</a>&nbsp;
              </center>
             </div>
            
