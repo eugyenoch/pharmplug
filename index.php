@@ -105,7 +105,7 @@ if(isset($_GET['searchBtn'])){
                     </div>
                      <div class="col-md-2 border-start border-primary m-0">
                         <ul class="ps-2 list-group list-unstyled">
-                            <li class="small p-0 m-0"><a class="lightBlueText" href="#">Upload/Get Prescription</a></li>
+                            <li class="small p-0 m-0"><a class="lightBlueText" href="https://pharmplug.com/prescription/">Upload/Get Prescription</a></li>
                            <!--  <li class="small p-0 m-0"><a class="lightBlueText" href="#">Get Prescription</a></li> -->
                         </ul>
 
@@ -163,21 +163,21 @@ if(isset($_GET['searchBtn'])){
       <img src="assets/img/pharm plug_1.jpg" class="d-block w-100" alt="PharmPlug carousel">
       <div class="carousel-caption d-none d-md-block">
         <!-- <h5>About Us</h5> -->
-        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/"><span class="text-white">Buy Now</span></a></p>
+        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/shop"><span class="text-white">Buy Now</span></a></p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="3000">
       <img src="assets/img/pharm plug_2.jpg" class="d-block w-100" alt="PharmPlug carousel">
       <div class="carousel-caption d-none d-md-block">
        <!--  <h5>About Us</h5> -->
-        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/"><span class="text-white">Buy Now</span></a></p>
+        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/shop"><span class="text-white">Buy Now</span></a></p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="3000">
       <img src="assets/img/pharm plug_3.jpg" class="d-block w-100" alt="PharmPlug carousel">
       <div class="carousel-caption d-none d-md-block">
         <h5></h5>
-        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/"><span class="text-white">Buy Now</span></a></p>
+        <p><a class="btn btn-lg lemonBg darkBlueBgHover" type="button" href="https://pharmplug.com/shop"><span class="text-white">Buy Now</span></a></p>
       </div>
     </div>
   </div>
@@ -250,7 +250,7 @@ if(isset($_GET['searchBtn'])){
         <center><img src="assets/img/pharmplug_product.png" class="d-block" alt="PharmPlug carousel"></center>
     </div>
     <div>
-        <center><a href="https://pharmplug.com/"><button class="btn btn-lg text-white lemonBg lightBlueBgHover"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</button></a></center>
+        <center><a href="https://pharmplug.com/shop"><button class="btn btn-lg text-white lemonBg lightBlueBgHover"><i class="ti-shopping-cart-full"></i>&nbsp;Shop Now</button></a></center>
     </div>
     </div>
         <!-- 3-COL PRODUCT LIST SECTION ENDS -->
@@ -268,11 +268,11 @@ if(isset($_GET['searchBtn'])){
     <div class="col-sm-3 pt-5">
       <h4 class="lightBlueText">Book Lab Test</h4>
       <p>It's easy to book a laboratory test. Sample collections are done by trained scientists.</p>
-      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/#"><i class="ti-pulse"></i>&nbsp;<small>Book Lab Test</small></a>
+      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/contact"><i class="ti-pulse"></i>&nbsp;<small>Book Lab Test</small></a>
 
       <h4 class="lightBlueText pt-5">Buy Medicines</h4>
       <p>Get NAFDAC-approved medications delivered to you no matter your current location.</p>
-      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/"><i class="ti-pulse"></i>&nbsp;<small>Enter Pharmacy</small></a>
+      <a class="btn btn-lg lemonBg lightBlueBgHover text-white" href="https://pharmplug.com/shop"><i class="ti-pulse"></i>&nbsp;<small>Enter Pharmacy</small></a>
     </div>
     <div class="col-sm-3 py-5">
       <h4 class="lightBlueText">Consult an Expert</h4>
